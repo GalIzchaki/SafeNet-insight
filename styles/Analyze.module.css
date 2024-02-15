@@ -1,0 +1,73 @@
+.back {
+  height: 100;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../public/background.png);
+}
+
+.container {
+  margin-top: -100px; 
+}
+
+.button:hover {
+    background-color: rgba(191, 109, 204, 0.6);
+}
+
+.header{
+  color: #fcf7fd;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+.discover{
+  color: #fcf7fd;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    margin-left: 35px;
+    background-color: #bf6dcc;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Cursive;
+}
+
+.cake{
+  /* width: 600px; 
+  height: 600px; */
+  justify-content:right;
+}
+
+.cakeGraph{
+  justify-content:center;
+}
+
+.buttons{
+  display:flex;
+  justify-content:center;
+  width:100%;
+
+  .design{
+    font-family: Cursive;
+    text-align:center;
+    font-size: 20px;
+    margin: 40px;
+    color: #f3d8ef;
+  }
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background:#b758c6;
+}

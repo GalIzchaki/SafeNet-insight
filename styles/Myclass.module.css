@@ -1,0 +1,186 @@
+.back {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../public/background.png);
+}
+.container{
+  display: flex;
+  height:100%;
+  width: 100%;
+}
+.header{
+  color: #fcf7fd;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.single {
+  width: 80%;
+  height: 80%;
+  color: #251f6f;
+  padding: 0 16px;
+  background: #dbc4f3;
+  display: flex;
+  margin: 10px 0 0 0;
+  border-left: 8px solid #c701d5;
+  font-family: Cursive;
+  font-size: 14px;
+}
+.single:hover {
+  border-left: 8px solid #bf6dcc;
+}
+
+.row{
+  width: 100%;
+  height: 70px;
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  text-align:right;
+}
+/* .single {
+  width: 40%;
+  color: #251f6f;
+  padding: 10px 16px;
+  background: #def6fc;
+  display: flex;
+  margin: 20px 10px;
+  border-left: 8px solid #c4e9f3;
+  font-family: Cursive;
+  font-size: 13px;
+}
+.single:hover {
+  border-left: 8px solid #d1afe4;
+}
+
+.row{
+  width: 60%;
+  height: 30%;
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  text-align:right;
+} */
+
+.submit{
+  margin: 30% 0 0 30%;
+  width: 100%;
+  text-align:center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  color: #fcf7fd;
+  text-align: center;
+}
+
+.deletebuttom{
+  width: 12%;
+  height: 80%;
+  /* background-color: #022655;
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none; */
+  font-size: 13px;
+  margin: 10px 0;
+  /* cursor: pointer;
+  border-radius: 10px;
+  font-family: Cursive; */
+  font-family: Cursive;
+  background-color: #bf6dcc;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* .deletebuttom:hover {
+  border-left: 8px solid #d1afe4;
+  border-right: 8px solid #d1afe4;
+} */
+
+.create{
+  height: auto;
+  width:100%;
+  display:flex;
+  /* flex-direction:row; */
+  justify-content: center;
+  text-align:left;
+}
+
+.createRows{
+  width: 50%;
+  /* text-align: left; */
+}
+.CreatClasses{
+  width: 30%;
+  /* height:100%; */
+  /* text-align: right; */
+}
+
+.addbuttom{
+  width: 60%;
+  /* background-color: #022655;
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px; */
+  margin: 15px 0;
+  /* /* cursor: pointer;
+  border-radius: 10px; */
+  font-family: Cursive;
+  background-color: #bf6dcc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 5px 5px;
+}
+
+.submitbutton:hover {
+    background-color: rgba(191, 109, 204, 0.6);
+}
+
+.submitbutton {
+    margin-top: 350px;
+    margin-left: 35px;
+    background-color: #bf6dcc;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input{
+  width: 100%;
+  height: 80%;
+  color: #251f6f;
+  padding: 0 16px;
+  background: #dbc4f3;
+  display: flex;
+  margin: 10px 0 0 0;
+  font-family: Cursive;
+  font-size: 14px;
+}
+
+.label{
+  width: 80%;
+  text-align:center;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background:#b758c6;
+}
